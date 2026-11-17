@@ -89,12 +89,8 @@ export default function MCQMasteryEngine({ currentTopic, onTopicMastered }) {
         attempt: attemptCount,
         completedAt: new Date().toISOString()
       };
-      // Record progress
-      fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/user_progress`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(progressRecord),
-      }).catch((e) => console.warn('Could not persist to json-server:', e));
+      // Record progress locally & remotely
+      await apiService.saveProgress(progressRecord);
 
       if (isPassed && onTopicMastered) {
         onTopicMastered(topic);

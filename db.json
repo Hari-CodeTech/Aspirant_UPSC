@@ -1,0 +1,391 @@
+{
+  "users": [
+    {
+      "id": "aspirant-1794905135726",
+      "name": "Hari",
+      "email": "haripuvvala7924@gmail.com",
+      "password": "123456",
+      "picture": "https://api.dicebear.com/7.x/initials/svg?seed=Hari&backgroundColor=0f172a&textColor=f59e0b",
+      "targetExam": "UPSC CSE 2027",
+      "prelimsTargetDate": "2027-05-30",
+      "mainsTargetDate": "2027-09-17",
+      "optionalSubject": "PSIR (Political Science & International Relations)",
+      "dailyTargetHours": 9,
+      "createdAt": "2026-11-17T08:45:35.726Z",
+      "lastLogin": "2026-11-17T13:48:17.645Z",
+      "status": "Active Aspirant"
+    },
+    {
+      "id": "aspirant-1794906445697",
+      "name": "Raju",
+      "email": "haripuvvala12@gmail.com",
+      "password": "123456",
+      "picture": "https://api.dicebear.com/7.x/initials/svg?seed=Raju&backgroundColor=0f172a&textColor=f59e0b",
+      "targetExam": "UPSC CSE 2027",
+      "prelimsTargetDate": "2027-05-30",
+      "mainsTargetDate": "2027-09-17",
+      "optionalSubject": "History",
+      "dailyTargetHours": 9,
+      "createdAt": "2026-11-17T09:07:25.697Z",
+      "lastLogin": "2026-11-17T15:38:24.606Z",
+      "status": "Active Aspirant"
+    },
+    {
+      "id": "aspirant-1794906800793",
+      "name": "suma",
+      "email": "puvvalahari99@gmail.com",
+      "password": "123456",
+      "picture": "https://api.dicebear.com/7.x/initials/svg?seed=suma&backgroundColor=0f172a&textColor=f59e0b",
+      "targetExam": "UPSC CSE 2027",
+      "prelimsTargetDate": "2027-05-30",
+      "mainsTargetDate": "2027-09-17",
+      "optionalSubject": "Economics",
+      "dailyTargetHours": 9,
+      "createdAt": "2026-11-17T09:13:20.794Z",
+      "lastLogin": "2026-11-17T15:38:39.807Z",
+      "status": "Active Aspirant"
+    }
+  ],
+  "sessions": [],
+  "syllabus": [
+    {
+      "id": "GS1-MOD-HIST",
+      "paper": "GS Paper I",
+      "subject": "Modern Indian History",
+      "topic": "Socio-Religious Reform Movements & Early Nationalist Awakening",
+      "difficulty": "Medium",
+      "estimatedHours": 3,
+      "status": "In Progress",
+      "standardBooks": [
+        "NCERT Class 12: Themes in Indian History (Part III)",
+        "A Brief History of Modern India (Rajiv Ahir / Spectrum)",
+        "India's Struggle for Independence (Bipan Chandra)"
+      ],
+      "officialSource": "National Archives of India & Ministry of Culture",
+      "officialUrl": "http://nationalarchives.nic.in/"
+    },
+    {
+      "id": "GS2-POL-CONST",
+      "paper": "GS Paper II",
+      "subject": "Indian Polity & Constitution",
+      "topic": "Preamble, Fundamental Rights (Articles 14-21) and Judicial Review",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Indian Polity (M. Laxmikanth - Chapters 3, 7, 8)",
+        "NCERT Class 11: Indian Constitution at Work",
+        "Introduction to the Constitution of India (D.D. Basu)"
+      ],
+      "officialSource": "Legislative Dept (Ministry of Law & Justice) - Constitution of India",
+      "officialUrl": "https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "id": "GS3-ECO-GROWTH",
+      "paper": "GS Paper III",
+      "subject": "Indian Economy",
+      "topic": "Fiscal Policy, Inflation Dynamics & RBI Monetary Framework",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Indian Economy (Nitin Singhania / Ramesh Singh)",
+        "NCERT Class 12: Introductory Macroeconomics",
+        "Economic Survey 2024-25 & Union Budget Documents"
+      ],
+      "officialSource": "Reserve Bank of India (Monetary Policy) & Ministry of Finance",
+      "officialUrl": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752"
+    },
+    {
+      "id": "GS4-ETH-INTEG",
+      "paper": "GS Paper IV",
+      "subject": "Ethics, Integrity & Aptitude",
+      "topic": "Ethics in Public Administration, Probity in Governance & Case Studies",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Ethics, Integrity & Aptitude (Subba Rao & P.N. Roy Chowdhury)",
+        "2nd Administrative Reforms Commission (ARC): 4th Report on Ethics in Governance",
+        "Central Vigilance Commission (CVC) Citizen Guidance"
+      ],
+      "officialSource": "DARPG (2nd ARC Reports) & Central Vigilance Commission (CVC)",
+      "officialUrl": "https://darpg.gov.in/arc-reports"
+    },
+    {
+      "id": "CSAT-P2-QUANT",
+      "paper": "CSAT Paper II",
+      "subject": "Quantitative Aptitude",
+      "topic": "Number Systems, Permutations & Combinations, Data Sufficiency",
+      "difficulty": "Medium",
+      "estimatedHours": 1.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Quantitative Aptitude for Competitive Examinations (R.S. Aggarwal)",
+        "Analytical Reasoning (M.K. Pandey)",
+        "Previous 10-Year UPSC CSAT Official Question Papers"
+      ],
+      "officialSource": "Union Public Service Commission (Official Previous Papers)",
+      "officialUrl": "https://upsc.gov.in/examinations/previous-question-papers"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "day-2026-11-17",
+      "date": "2026-11-17",
+      "dayOfWeek": "Tuesday",
+      "totalHours": 8.5,
+      "isBufferDay": false,
+      "status": "Active",
+      "sessions": [
+        {
+          "slot": "06:30 - 08:30",
+          "subject": "Daily Current Affairs & Editorial Analysis (The Hindu / PIB)",
+          "paper": "Current Affairs",
+          "focus": "Prelims micro-notes + GS2/GS3 Mains linkage",
+          "completed": false
+        },
+        {
+          "slot": "09:30 - 12:30",
+          "subject": "Indian Polity: Fundamental Rights (Articles 14-21)",
+          "paper": "GS Paper II",
+          "focus": "Landmark judgments (Kesavananda, Puttaswamy) & Constitutional limits",
+          "difficulty": "High",
+          "completed": false
+        },
+        {
+          "slot": "14:00 - 16:30",
+          "subject": "PSIR Optional: Western Political Thought (Plato's Theory of Justice)",
+          "paper": "PSIR Paper I",
+          "focus": "Concept of Philosopher King, Allegory of Cave, Critique",
+          "difficulty": "High",
+          "completed": false
+        },
+        {
+          "slot": "17:30 - 19:00",
+          "subject": "CSAT: Number Systems & Divisibility Rules",
+          "paper": "CSAT Paper II",
+          "focus": "Previous 10-year UPSC question patterns & speed practice",
+          "difficulty": "Medium",
+          "completed": false
+        },
+        {
+          "slot": "20:30 - 21:30",
+          "subject": "Daily Topic MCQ Test (Polity FRs - 10 MCQs Mastery Test)",
+          "paper": "Practice Evaluation",
+          "focus": "Score 9/10 to unlock Directive Principles of State Policy",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "current_affairs": [
+    {
+      "id": "ca-pib-2061661",
+      "prid": "2061661",
+      "title": "Cabinet approves conferring status of Classical Language to Marathi, Pali, Prakrit, Assamese and Bengali languages",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2061661",
+      "sourceName": "Cabinet / Ministry of Culture",
+      "date": "2024-10-03",
+      "gsCategory": "GS Paper I (Indian Heritage, Culture & Languages)",
+      "summary": "The Union Cabinet chaired by Prime Minister Narendra Modi conferred the status of Classical Language to five languages: Marathi, Pali, Prakrit, Assamese, and Bengali, expanding the roster from six to eleven recognized classical languages.",
+      "prelimsPointers": [
+        "Criteria established in 2004/2005: High antiquity of early texts/recorded history over 1500-2000 years, valuable body of ancient literature, original literary tradition, distinct from modern forms",
+        "Linguistic Experts Committee (LEC) under Ministry of Culture (Sahitya Akademi) examines proposals",
+        "Total Classical Languages in India now 11: Tamil (2004), Sanskrit (2005), Telugu (2008), Kannada (2008), Malayalam (2013), Odia (2014), plus Marathi, Pali, Prakrit, Assamese, and Bengali (2024)"
+      ],
+      "mainsRelevance": "GS-1 Indian Culture: Preservation of ancient linguistic heritage, linguistic diversity, promotion of academic research chairs, and international recognition of indigenous literatures."
+    },
+    {
+      "id": "ca-pib-2056059",
+      "prid": "2056059",
+      "title": "Cabinet accepts recommendations of High-Level Committee on Simultaneous Elections",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2056059",
+      "sourceName": "Cabinet / Ministry of Law and Justice",
+      "date": "2024-09-18",
+      "gsCategory": "GS Paper II (Polity, Constitution & Elections)",
+      "summary": "The Union Cabinet accepted the recommendations of the High-Level Committee on Simultaneous Elections chaired by former President Ram Nath Kovind, recommending a phased approach to synchronize elections across all tiers of Indian democracy.",
+      "prelimsPointers": [
+        "Phase 1 proposes simultaneous elections for Lok Sabha and State Legislative Assemblies",
+        "Phase 2 synchronizes local bodies (Municipalities and Panchayats) within 100 days of general elections",
+        "Recommendation of a single common electoral roll and Electoral Photo Identity Card (EPIC) across Union, State, and local bodies"
+      ],
+      "mainsRelevance": "GS-2 Constitutional Architecture: Federalism vs governance efficiency, impact of election cycles on policy paralysis, Model Code of Conduct, and constitutional amendments required (Articles 83, 172, 324A)."
+    },
+    {
+      "id": "ca-pib-2055996",
+      "prid": "2055996",
+      "title": "Cabinet approves Pradhan Mantri Janjatiya Unnat Gram Abhiyan",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2055996",
+      "sourceName": "Cabinet / Ministry of Tribal Affairs",
+      "date": "2024-09-18",
+      "gsCategory": "GS Paper II (Welfare Schemes & Vulnerable Sections)",
+      "summary": "The Union Cabinet approved the Pradhan Mantri Janjatiya Unnat Gram Abhiyan with a total outlay of Rs.79,156 crore (Central share: Rs.56,333 crore; State share: Rs.22,823 crore) to ensure saturation of critical infrastructure and services for over 5 crore tribal people.",
+      "prelimsPointers": [
+        "Covers ~63,000 tribal-majority villages across 549 districts and 2,740 blocks in 30 States/UTs",
+        "Encompasses 25 interventions implemented by 17 line ministries coordinated through Development Action Plan for Scheduled Tribes (DAPST)",
+        "Focuses on pucca houses (PMAY-G), piped water supply (JJM), solar lighting, forest rights (FRA) support, and livelihood training"
+      ],
+      "mainsRelevance": "GS-2 Social Justice: Targeted tribal development, inter-ministerial convergence mechanisms, reducing socio-economic disparities in Fifth and Sixth Schedule areas, and bridging critical infrastructural deficits."
+    },
+    {
+      "id": "ca-pib-2043924",
+      "prid": "2043924",
+      "title": "Cabinet approves Pradhan Mantri Awas Yojana-Urban 2.0 Scheme",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2043924",
+      "sourceName": "Cabinet / Ministry of Housing and Urban Affairs",
+      "date": "2024-08-09",
+      "gsCategory": "GS Paper II (Governance, Urbanization & Social Welfare)",
+      "summary": "The Union Cabinet approved the Pradhan Mantri Awas Yojana-Urban (PMAY-U) 2.0 scheme with financial assistance to 1 crore urban poor and middle-class families to construct, purchase, or rent affordable houses with an investment of Rs.10 lakh crore.",
+      "prelimsPointers": [
+        "Government assistance/subsidy component of Rs.2.30 lakh crore over 5 years",
+        "Four verticals: Beneficiary-Led Construction (BLC), Affordable Housing in Partnership (AHP), Affordable Rental Housing (ARH), and Interest Subsidy Scheme (ISS)",
+        "Eligibility includes Economically Weaker Section (EWS), Low Income Group (LIG), and Middle Income Group (MIG) families not owning a pucca house"
+      ],
+      "mainsRelevance": "GS-2 Governance & GS-1 Urbanization: Rapid urban migration, slum redevelopment, inclusive urban housing infrastructure, and cooperative federalism in municipal delivery."
+    },
+    {
+      "id": "ca-pib-2053898",
+      "prid": "2053898",
+      "title": "Cabinet approves 'Mission Mausam' to create a more weather-ready and climate-smart Bharat with an outlay of Rs.2,000 crore over two years",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2053898",
+      "sourceName": "Cabinet / Ministry of Earth Sciences",
+      "date": "2024-09-11",
+      "gsCategory": "GS Paper III (Science & Technology / Disaster Management)",
+      "summary": "The Union Cabinet approved 'Mission Mausam' with an outlay of Rs.2,000 crore over two years to build a climate-smart Bharat by drastically enhancing weather observation networks, supercomputing infrastructure, and cloud-physics research.",
+      "prelimsPointers": [
+        "Nodal Ministry: Ministry of Earth Sciences (MoES)",
+        "Implemented by three premier institutes: India Meteorological Department (IMD), Indian Institute of Tropical Meteorology (IITM), and National Centre for Medium Range Weather Forecasting (NCMRWF)",
+        "Deploys next-generation Doppler radars, high-resolution satellite payloads, advanced atmospheric laboratories, and AI/ML predictive modeling"
+      ],
+      "mainsRelevance": "GS-3 Disaster Management & Science: Early warning systems for extreme weather events (cyclones, cloudbursts, heatwaves), agricultural climate resilience, and economic loss mitigation."
+    },
+    {
+      "id": "ca-pib-2048569",
+      "prid": "2048569",
+      "title": "Union Cabinet approves ‘BioE3 (Biotechnology for Economy, Environment and Employment) Policy for Fostering High Performance Biomanufacturing’ of Department of Biotechnology",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2048569",
+      "sourceName": "Cabinet / Ministry of Science and Technology",
+      "date": "2024-08-24",
+      "gsCategory": "GS Paper III (Science & Technology / Biotechnology & Environment)",
+      "summary": "The Union Cabinet approved the landmark BioE3 Policy to foster high-performance biomanufacturing, aiming to pivot India from chemical-based industrial manufacturing to sustainable, biologically-driven manufacturing models.",
+      "prelimsPointers": [
+        "Six thematic areas: High-value bio-based chemicals/biopolymers, Smart proteins & functional foods, Precision biotherapeutics, Climate-resilient agriculture, Carbon capture & utilization, Marine and space research",
+        "Establishes institutional Biomanufacturing Hubs, Biofoundries, and Bio-AI Hubs across India",
+        "Directly aligns with India's international commitment of Net-Zero carbon emissions by 2070"
+      ],
+      "mainsRelevance": "GS-3 Science & Tech: Industrial biotechnology indigenization, circular bioeconomy transition, bio-based employment creation, and green industrial policies."
+    },
+    {
+      "id": "ca-pib-2010130",
+      "prid": "2010130",
+      "title": "Cabinet approves PM-Surya Ghar: Muft Bijli Yojana for installing rooftop solar in One Crore households",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2010130",
+      "sourceName": "Cabinet / Ministry of New and Renewable Energy",
+      "date": "2024-02-29",
+      "gsCategory": "GS Paper III (Energy, Infrastructure & Environment)",
+      "summary": "The Union Cabinet approved the PM-Surya Ghar: Muft Bijli Yojana with a massive financial outlay of Rs.75,021 crore to provide up to 300 units of free electricity per month for 1 crore households through rooftop solar systems.",
+      "prelimsPointers": [
+        "Central Financial Assistance (CFA): Rs.30,000 per kW for up to 2 kW systems; Rs.18,000 per kW for additional 1 kW capacity (max Rs.78,000 for 3 kW+)",
+        "Target: 30 GW rooftop solar capacity addition, resulting in reduction of 720 million tonnes of CO2 equivalent emissions over 25-year lifetime",
+        "Includes development of a 'Model Solar Village' in each district and collateral-free low-interest loan products (~7% interest)"
+      ],
+      "mainsRelevance": "GS-3 Energy Infrastructure: DISCOM turnaround through decentralized generation, solar manufacturing supply chains, democratization of power generation, and INDC climate targets."
+    },
+    {
+      "id": "ca-pib-2067667",
+      "prid": "2067667",
+      "title": "Union Cabinet approves establishment of Rs.1,000 crore Venture Capital Fund for Space Sector under aegis of IN-SPACe",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2067667",
+      "sourceName": "Cabinet / Department of Space",
+      "date": "2024-10-24",
+      "gsCategory": "GS Paper III (Science & Technology / Space Economy)",
+      "summary": "The Union Cabinet approved the creation of a dedicated Rs.1,000 crore Venture Capital Fund managed under the aegis of IN-SPACe to provide growth-stage risk equity capital to Indian space tech startups.",
+      "prelimsPointers": [
+        "Nodal Agency: IN-SPACe (Indian National Space Promotion and Authorisation Centre)",
+        "Deployment period: Up to 5 years, investing an average of Rs.150–250 crore annually across approximately 40 space startups",
+        "Investment size: Growth stage (Rs.10–30 crore) and Late-growth stage (Rs.30–60 crore)"
+      ],
+      "mainsRelevance": "GS-3 Technology & Economy: Commercialization of Indian space industry, preventing brain-drain and external domiciling of Indian spacetech IP, and scaling India's share in global space economy towards 10%."
+    },
+    {
+      "id": "ca-pib-2077094",
+      "prid": "2077094",
+      "title": "Launch of National Mission on Natural Farming",
+      "source": "Press Information Bureau (PIB Delhi)",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2077094",
+      "sourceName": "Cabinet / Ministry of Agriculture & Farmers Welfare",
+      "date": "2024-11-25",
+      "gsCategory": "GS Paper III (Agriculture & Sustainable Farming)",
+      "summary": "The Union Cabinet approved the launch of the National Mission on Natural Farming (NMNF) as a standalone Centrally Sponsored Scheme with an outlay of Rs.2,481 crore to promote chemical-free, ecosystem-based farming across India.",
+      "prelimsPointers": [
+        "Total outlay of Rs.2,481 crore (Central share: Rs.1,584 crore; State share: Rs.897 crore) up to 2025-26",
+        "Targets establishing 15,000 natural farming clusters covering 7.5 lakh hectares and 10,000 Bio-input Resource Centres (BRCs)",
+        "Deploys Community Resource Persons (CRPs)/Krishi Sakhis and establishes a single national brand and easy certification system"
+      ],
+      "mainsRelevance": "GS-3 Agriculture: Soil health restoration, chemical fertilizer subsidy reduction, climate-resilient organic agriculture, and lowering input costs for small and marginal farmers."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "mcq-pol-01",
+      "topicId": "GS2-POL-CONST",
+      "topic": "Fundamental Rights (Articles 14-21)",
+      "difficulty": "UPSC Prelims Standard",
+      "question": "With reference to the Right to Equality under Article 14 of the Indian Constitution, consider the following statements:\n1. 'Equality before the Law' is of British origin and is a negative concept.\n2. 'Equal Protection of the Laws' is of American origin and is a positive concept.\n3. The Supreme Court held that the 'Rule of Law' embodied in Article 14 is a basic feature of the Constitution.\nWhich of the statements given above are correct?",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All three statements are correct. Statement 1 is correct as 'Equality before law' is taken from the British legal system (absence of special privileges). Statement 2 is correct as 'Equal protection of laws' is from the American Constitution (equality of treatment under equal circumstances). Statement 3 is correct as the Supreme Court has declared Rule of Law as part of the Basic Structure doctrine."
+    },
+    {
+      "id": "mcq-pol-02",
+      "topicId": "GS2-POL-CONST",
+      "topic": "Fundamental Rights (Articles 14-21)",
+      "difficulty": "UPSC Prelims Standard",
+      "question": "Which one of the following categories of Fundamental Rights incorporates protection against untouchability as a form of discrimination?",
+      "options": [
+        "Right against Exploitation",
+        "Right to Freedom",
+        "Right to Constitutional Remedies",
+        "Right to Equality"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Article 17 abolishes 'untouchability' and forbids its practice in any form. It is placed under the heading 'Right to Equality' (Articles 14 to 18) in Part III of the Constitution."
+    }
+  ],
+  "user_progress": [
+    {
+      "id": "prog-GS2-POL-CONST-1794905213420",
+      "topicId": "GS2-POL-CONST",
+      "topicName": "Fundamental Rights (Articles 14-21)",
+      "score": 4,
+      "totalQuestions": 10,
+      "isMastered": false,
+      "attempt": 1,
+      "completedAt": "2026-11-17T08:46:53.420Z"
+    },
+    {
+      "id": "prog-GS2-POL-CONST-1794905282775",
+      "topicId": "GS2-POL-CONST",
+      "topicName": "Fundamental Rights (Articles 14-21)",
+      "score": 1,
+      "totalQuestions": 10,
+      "isMastered": false,
+      "attempt": 2,
+      "completedAt": "2026-11-17T08:48:02.775Z"
+    }
+  ]
+}

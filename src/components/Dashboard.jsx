@@ -22,7 +22,8 @@ import {
   X,
   BookOpen,
   Sparkles,
-  ExternalLink
+  ExternalLink,
+  Search
 } from 'lucide-react';
 
 export default function Dashboard() {
@@ -39,6 +40,8 @@ export default function Dashboard() {
 
   const [masteredTopics, setMasteredTopics] = useState([]);
   const [syllabusList, setSyllabusList] = useState([]);
+  const [syllabusFilter, setSyllabusFilter] = useState('All');
+  const [syllabusSearch, setSyllabusSearch] = useState('');
 
   // Active topic for MCQ mastery
   const [currentActiveTopic, setCurrentActiveTopic] = useState({
@@ -292,71 +295,168 @@ export default function Dashboard() {
           )}
 
           {/* VIEW 5: Syllabus Matrix */}
-          {activeView === 'syllabus' && (
-            <div className="syllabus-section">
-              <div className="section-intro-bar">
-                <div>
-                  <h3 className="section-heading">Authentic UPSC Syllabus Coverage Matrix</h3>
-                  <p className="section-subtext">
-                    Modules tailored dynamically for General Studies (GS 1-4), CSAT, and your registered Optional: <strong>{user?.optionalSubject}</strong>.
-                  </p>
+          {activeView === 'syllabus' && (() => {
+            const filteredSyllabus = syllabusList.filter((item) => {
+              let matchesPaper = true;
+              if (syllabusFilter === 'GS Paper I') matchesPaper = item.paper === 'GS Paper I';
+              else if (syllabusFilter === 'GS Paper II') matchesPaper = item.paper === 'GS Paper II';
+              else if (syllabusFilter === 'GS Paper III') matchesPaper = item.paper === 'GS Paper III';
+              else if (syllabusFilter === 'GS Paper IV') matchesPaper = item.paper === 'GS Paper IV';
+              else if (syllabusFilter === 'CSAT') matchesPaper = item.paper.includes('CSAT');
+              else if (syllabusFilter === 'Optional') {
+                matchesPaper = !item.paper.startsWith('GS ') && !item.paper.includes('CSAT');
+              }
+
+              const q = syllabusSearch.toLowerCase().trim();
+              const matchesSearch = !q || 
+                item.subject.toLowerCase().includes(q) || 
+                item.topic.toLowerCase().includes(q) || 
+                item.paper.toLowerCase().includes(q) ||
+                (item.standardBooks && item.standardBooks.some((b) => b.toLowerCase().includes(q)));
+
+              return matchesPaper && matchesSearch;
+            });
+
+            const counts = {
+              all: syllabusList.length,
+              gs1: syllabusList.filter((i) => i.paper === 'GS Paper I').length,
+              gs2: syllabusList.filter((i) => i.paper === 'GS Paper II').length,
+              gs3: syllabusList.filter((i) => i.paper === 'GS Paper III').length,
+              gs4: syllabusList.filter((i) => i.paper === 'GS Paper IV').length,
+              csat: syllabusList.filter((i) => i.paper.includes('CSAT')).length,
+              optional: syllabusList.filter((i) => !i.paper.startsWith('GS ') && !i.paper.includes('CSAT')).length,
+            };
+
+            return (
+              <div className="syllabus-section">
+                <div className="section-intro-bar">
+                  <div>
+                    <h3 className="section-heading">Official UPSC Gazette Syllabus Matrix</h3>
+                    <p className="section-subtext">
+                      Complete, line-by-line official UPSC syllabus from The Gazette of India (GS 1-4 & CSAT) tailored with your registered Optional: <strong>{user?.optionalSubject || 'PSIR'}</strong>.
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="syllabus-grid">
-                {syllabusList.map((item) => {
-                  const isMastered = masteredTopics.includes(item.id);
-                  return (
-                    <div key={item.id} className={`syllabus-item-card ${isMastered ? 'card-mastered' : ''}`}>
-                      <div className="syllabus-card-top">
-                        <span className="paper-tag">{item.paper}</span>
-                        <span className="diff-tag">{item.difficulty}</span>
-                      </div>
-                      <h4 className="syllabus-subject-title">{item.subject}</h4>
-                      <p className="syllabus-topic-desc">{item.topic}</p>
+                {/* Filter Tabs & Search Controls */}
+                <div className="syllabus-controls-bar">
+                  <div className="syllabus-filter-tabs">
+                    {[
+                      { key: 'All', label: `All (${counts.all})` },
+                      { key: 'GS Paper I', label: `GS I (${counts.gs1})` },
+                      { key: 'GS Paper II', label: `GS II (${counts.gs2})` },
+                      { key: 'GS Paper III', label: `GS III (${counts.gs3})` },
+                      { key: 'GS Paper IV', label: `GS IV (${counts.gs4})` },
+                      { key: 'CSAT', label: `CSAT (${counts.csat})` },
+                      { key: 'Optional', label: `Optional (${counts.optional})` },
+                    ].map((tab) => (
+                      <button
+                        key={tab.key}
+                        type="button"
+                        className={`syl-filter-btn ${syllabusFilter === tab.key ? 'syl-filter-active' : ''}`}
+                        onClick={() => setSyllabusFilter(tab.key)}
+                      >
+                        {tab.label}
+                      </button>
+                    ))}
+                  </div>
 
-                      {/* Standard Recommended Textbooks */}
-                      {item.standardBooks && item.standardBooks.length > 0 && (
-                        <div className="syllabus-resources-box">
-                          <span className="res-title">
-                            <BookOpen size={12} /> Standard Sources:
-                          </span>
-                          <ul className="res-books-list">
-                            {item.standardBooks.map((bk, idx) => (
-                              <li key={idx}>{bk}</li>
-                            ))}
-                          </ul>
+                  <div className="syllabus-search-box">
+                    <Search size={16} className="syl-search-icon" />
+                    <input
+                      type="text"
+                      placeholder="Search topics, keywords, standard books..."
+                      value={syllabusSearch}
+                      onChange={(e) => setSyllabusSearch(e.target.value)}
+                      className="syl-search-input"
+                    />
+                    {syllabusSearch && (
+                      <button
+                        type="button"
+                        className="btn-clear-search"
+                        onClick={() => setSyllabusSearch('')}
+                      >
+                        <X size={14} />
+                      </button>
+                    )}
+                  </div>
+                </div>
+
+                {filteredSyllabus.length === 0 ? (
+                  <div className="syllabus-empty-state">
+                    <BookOpen size={36} className="empty-icon" />
+                    <h4>No Syllabus Topics Found</h4>
+                    <p>No topics matching "{syllabusSearch}" in the selected paper filter.</p>
+                    <button
+                      type="button"
+                      className="btn-reset-filters"
+                      onClick={() => {
+                        setSyllabusFilter('All');
+                        setSyllabusSearch('');
+                      }}
+                    >
+                      Reset Filters
+                    </button>
+                  </div>
+                ) : (
+                  <div className="syllabus-grid">
+                    {filteredSyllabus.map((item) => {
+                      const isMastered = masteredTopics.includes(item.id);
+                      return (
+                        <div key={item.id} className={`syllabus-item-card ${isMastered ? 'card-mastered' : ''}`}>
+                          <div className="syllabus-card-top">
+                            <span className="paper-tag">{item.paper}</span>
+                            <span className={`diff-tag diff-${item.difficulty.toLowerCase()}`}>
+                              {item.difficulty}
+                            </span>
+                          </div>
+                          <h4 className="syllabus-subject-title">{item.subject}</h4>
+                          <p className="syllabus-topic-desc">{item.topic}</p>
+
+                          {/* Standard Recommended Textbooks */}
+                          {item.standardBooks && item.standardBooks.length > 0 && (
+                            <div className="syllabus-resources-box">
+                              <span className="res-title">
+                                <BookOpen size={12} /> Standard Sources:
+                              </span>
+                              <ul className="res-books-list">
+                                {item.standardBooks.map((bk, idx) => (
+                                  <li key={idx}>{bk}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                          {/* Official Institutional / Government Link */}
+                          {item.officialUrl && (
+                            <div className="syllabus-official-link-row">
+                              <a
+                                href={item.officialUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn-topic-official-link"
+                                title={`Open official portal: ${item.officialSource}`}
+                              >
+                                <ExternalLink size={12} />
+                                <span>{item.officialSource} ↗</span>
+                              </a>
+                            </div>
+                          )}
+
+                          <div className="syllabus-bottom-meta">
+                            <span>Est: {item.estimatedHours} hrs</span>
+                            <span className={`status-pill ${isMastered ? 'status-mastered' : 'status-pending'}`}>
+                              {isMastered ? '✓ Mastered' : item.status}
+                            </span>
+                          </div>
                         </div>
-                      )}
-
-                      {/* Official Institutional / Government Link */}
-                      {item.officialUrl && (
-                        <div className="syllabus-official-link-row">
-                          <a
-                            href={item.officialUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn-topic-official-link"
-                            title={`Open official portal: ${item.officialSource}`}
-                          >
-                            <ExternalLink size={12} />
-                            <span>{item.officialSource} ↗</span>
-                          </a>
-                        </div>
-                      )}
-
-                      <div className="syllabus-bottom-meta">
-                        <span>Est: {item.estimatedHours} hrs</span>
-                        <span className={`status-pill ${isMastered ? 'status-mastered' : 'status-pending'}`}>
-                          {isMastered ? '✓ Mastered' : item.status}
-                        </span>
-                      </div>
-                    </div>
-                  );
-                })}
+                      );
+                    })}
+                  </div>
+                )}
               </div>
-            </div>
-          )}
+            );
+          })()}
 
           {/* VIEW 6: ✨ UPSC AI Study Assistant */}
           {activeView === 'aiAssistant' && (

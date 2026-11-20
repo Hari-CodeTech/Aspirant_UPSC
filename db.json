@@ -12,7 +12,7 @@
       "optionalSubject": "PSIR (Political Science & International Relations)",
       "dailyTargetHours": 9,
       "createdAt": "2026-11-17T08:45:35.726Z",
-      "lastLogin": "2026-11-17T17:16:28.263Z",
+      "lastLogin": "2026-11-18T05:40:31.283Z",
       "status": "Active Aspirant"
     },
     {
@@ -27,7 +27,7 @@
       "optionalSubject": "History",
       "dailyTargetHours": 9,
       "createdAt": "2026-11-17T09:07:25.697Z",
-      "lastLogin": "2026-11-17T15:38:24.606Z",
+      "lastLogin": "2026-11-18T05:21:36.711Z",
       "status": "Active Aspirant"
     },
     {
@@ -49,84 +49,1047 @@
   "sessions": [],
   "syllabus": [
     {
-      "id": "GS1-MOD-HIST",
+      "id": "GS1-01-CULTURE",
       "paper": "GS Paper I",
-      "subject": "Modern Indian History",
-      "topic": "Socio-Religious Reform Movements & Early Nationalist Awakening",
+      "subject": "Indian Heritage & Culture",
+      "topic": "Salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
       "difficulty": "Medium",
       "estimatedHours": 3,
       "status": "In Progress",
       "standardBooks": [
-        "NCERT Class 12: Themes in Indian History (Part III)",
-        "A Brief History of Modern India (Rajiv Ahir / Spectrum)",
-        "India's Struggle for Independence (Bipan Chandra)"
+        "Indian Art and Culture (Nitin Singhania)",
+        "NCERT Class 11: An Introduction to Indian Art (Part I)",
+        "CCRT Official Heritage Archives"
       ],
-      "officialSource": "National Archives of India & Ministry of Culture",
+      "officialSource": "Ministry of Culture & Archaeological Survey of India (ASI)",
+      "officialUrl": "https://indiaculture.gov.in/"
+    },
+    {
+      "id": "GS1-02-MOD-HIST",
+      "paper": "GS Paper I",
+      "subject": "Modern Indian History",
+      "topic": "Modern Indian history from about the middle of the eighteenth century until the present— significant events, personalities, issues",
+      "difficulty": "Medium",
+      "estimatedHours": 3,
+      "status": "In Progress",
+      "standardBooks": [
+        "A Brief History of Modern India (Rajiv Ahir / Spectrum)",
+        "From Plassey to Partition and After (Sekhar Bandyopadhyay)",
+        "NCERT Class 12: Themes in Indian History (Part III)"
+      ],
+      "officialSource": "National Archives of India (NAI)",
       "officialUrl": "http://nationalarchives.nic.in/"
     },
     {
-      "id": "GS2-POL-CONST",
-      "paper": "GS Paper II",
-      "subject": "Indian Polity & Constitution",
-      "topic": "Preamble, Fundamental Rights (Articles 14-21) and Judicial Review",
+      "id": "GS1-03-FREEDOM",
+      "paper": "GS Paper I",
+      "subject": "The Freedom Struggle",
+      "topic": "The Freedom Struggle — its various stages and important contributors/contributions from different parts of the country",
       "difficulty": "High",
       "estimatedHours": 3.5,
       "status": "Pending",
       "standardBooks": [
-        "Indian Polity (M. Laxmikanth - Chapters 3, 7, 8)",
-        "NCERT Class 11: Indian Constitution at Work",
-        "Introduction to the Constitution of India (D.D. Basu)"
+        "India's Struggle for Independence (Bipan Chandra)",
+        "A Brief History of Modern India (Spectrum)",
+        "NCERT Class 12 Themes in Indian History (Part III)"
       ],
-      "officialSource": "Legislative Dept (Ministry of Law & Justice) - Constitution of India",
-      "officialUrl": "https://legislative.gov.in/constitution-of-india/"
+      "officialSource": "Ministry of Culture (Amrit Mahotsav Digital Archives)",
+      "officialUrl": "https://amritmahotsav.nic.in/"
     },
     {
-      "id": "GS3-ECO-GROWTH",
-      "paper": "GS Paper III",
-      "subject": "Indian Economy",
-      "topic": "Fiscal Policy, Inflation Dynamics & RBI Monetary Framework",
-      "difficulty": "High",
-      "estimatedHours": 3,
-      "status": "Pending",
-      "standardBooks": [
-        "Indian Economy (Nitin Singhania / Ramesh Singh)",
-        "NCERT Class 12: Introductory Macroeconomics",
-        "Economic Survey 2024-25 & Union Budget Documents"
-      ],
-      "officialSource": "Reserve Bank of India (Monetary Policy) & Ministry of Finance",
-      "officialUrl": "https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=2752"
-    },
-    {
-      "id": "GS4-ETH-INTEG",
-      "paper": "GS Paper IV",
-      "subject": "Ethics, Integrity & Aptitude",
-      "topic": "Ethics in Public Administration, Probity in Governance & Case Studies",
+      "id": "GS1-04-POST-INDEP",
+      "paper": "GS Paper I",
+      "subject": "Post-Independence India",
+      "topic": "Post-independence consolidation and reorganization within the country (States reorganization, integration of princely states, tribal consolidation)",
       "difficulty": "Medium",
       "estimatedHours": 2.5,
       "status": "Pending",
       "standardBooks": [
-        "Ethics, Integrity & Aptitude (Subba Rao & P.N. Roy Chowdhury)",
-        "2nd Administrative Reforms Commission (ARC): 4th Report on Ethics in Governance",
-        "Central Vigilance Commission (CVC) Citizen Guidance"
+        "India Since Independence (Bipan Chandra)",
+        "NCERT Class 12: Politics in India Since Independence",
+        "India After Gandhi (Ramachandra Guha)"
       ],
-      "officialSource": "DARPG (2nd ARC Reports) & Central Vigilance Commission (CVC)",
+      "officialSource": "Pradhanmantri Sangrahalaya Official Portal",
+      "officialUrl": "https://www.pmsangrahalaya.gov.in/"
+    },
+    {
+      "id": "GS1-05-WORLD-HIST",
+      "paper": "GS Paper I",
+      "subject": "World History",
+      "topic": "History of the world: Events from 18th century such as Industrial Revolution, World Wars, redrawal of national boundaries, colonization, decolonization, political philosophies (Communism, Capitalism, Socialism)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Mastering Modern World History (Norman Lowe)",
+        "Contemporary World History (NCERT Class 12 Arjun Dev)",
+        "History of the Modern World (Jain & Mathur)"
+      ],
+      "officialSource": "UNESCO World Heritage Centre & Archives",
+      "officialUrl": "https://whc.unesco.org/"
+    },
+    {
+      "id": "GS1-06-IND-SOC",
+      "paper": "GS Paper I",
+      "subject": "Indian Society",
+      "topic": "Salient features of Indian Society, Diversity of India (Linguistic, religious, ethnic unity in diversity)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "NCERT Class 12: Indian Society",
+        "Social Change and Development in India (NCERT Class 12)",
+        "Society in India (Ram Ahuja)"
+      ],
+      "officialSource": "Ministry of Social Justice and Empowerment",
+      "officialUrl": "https://socialjustice.gov.in/"
+    },
+    {
+      "id": "GS1-07-WOMEN-POP",
+      "paper": "GS Paper I",
+      "subject": "Demography & Urbanization",
+      "topic": "Role of women and women's organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Indian Social System (Ram Ahuja)",
+        "Ministry of Housing & Urban Affairs (MoHUA) Smart Cities Mission Reports",
+        "Census of India Socio-Economic & Demographic Data"
+      ],
+      "officialSource": "Ministry of Women and Child Development (MoWCD) & MoHUA",
+      "officialUrl": "https://wcd.nic.in/"
+    },
+    {
+      "id": "GS1-08-GLOBAL-SOC",
+      "paper": "GS Paper I",
+      "subject": "Indian Society",
+      "topic": "Effects of globalization on Indian society (Cultural, economic, familial and lifestyle transitions)",
+      "difficulty": "Medium",
+      "estimatedHours": 2,
+      "status": "Pending",
+      "standardBooks": [
+        "Social Change in Modern India (M.N. Srinivas)",
+        "NCERT Class 12: Social Change and Development in India"
+      ],
+      "officialSource": "NITI Aayog Socio-Economic Transition Studies",
+      "officialUrl": "https://www.niti.gov.in/"
+    },
+    {
+      "id": "GS1-09-SOC-EMPOW",
+      "paper": "GS Paper I",
+      "subject": "Social Empowerment",
+      "topic": "Social empowerment, communalism, regionalism & secularism in the Indian context",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Caste in Modern India (M.N. Srinivas)",
+        "Indian Society (Ram Ahuja)",
+        "Communalism in Modern India (Bipan Chandra)"
+      ],
+      "officialSource": "Ministry of Social Justice and Empowerment",
+      "officialUrl": "https://socialjustice.gov.in/"
+    },
+    {
+      "id": "GS1-10-PHYS-GEOG",
+      "paper": "GS Paper I",
+      "subject": "Physical Geography",
+      "topic": "Salient features of world's physical geography (Geomorphology, Climatology, Oceanography, Soil & Biogeography)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "NCERT Class 11: Fundamentals of Physical Geography",
+        "Physical Geography (Savindra Singh)",
+        "Certificate Physical and Human Geography (G.C. Leong)"
+      ],
+      "officialSource": "Geological Survey of India (GSI)",
+      "officialUrl": "https://www.gsi.gov.in/"
+    },
+    {
+      "id": "GS1-11-INDUS-RES",
+      "paper": "GS Paper I",
+      "subject": "Economic Geography",
+      "topic": "Distribution of key natural resources across the world (including South Asia and Indian sub-continent); Factors responsible for location of primary, secondary, and tertiary sector industries (including India)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "India: A Comprehensive Geography (D.R. Khullar)",
+        "NCERT Class 12: India People and Economy",
+        "Oxford Student Atlas for India"
+      ],
+      "officialSource": "Ministry of Mines & Ministry of Commerce and Industry",
+      "officialUrl": "https://mines.gov.in/"
+    },
+    {
+      "id": "GS1-12-GEOPHYS-PHEN",
+      "paper": "GS Paper I",
+      "subject": "Geophysical Phenomena",
+      "topic": "Important Geophysical phenomena: Earthquakes, Tsunami, Volcanic activity, cyclones; Geographical features & changes in water-bodies, ice-caps, flora and fauna, and their effects",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Physical Geography (Savindra Singh)",
+        "NDMA Standard Operating Procedures for Natural Hazards",
+        "IMD Weather & Cyclone Technical Manuals"
+      ],
+      "officialSource": "India Meteorological Department (IMD) & INCOIS",
+      "officialUrl": "https://mausam.imd.gov.in/"
+    },
+    {
+      "id": "GS2-01-CONST-HIST",
+      "paper": "GS Paper II",
+      "subject": "Indian Constitution",
+      "topic": "Indian Constitution: Historical underpinnings, evolution, features, amendments, significant provisions and basic structure doctrine",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "In Progress",
+      "standardBooks": [
+        "Indian Polity (M. Laxmikanth - Chapters 1 to 11)",
+        "Introduction to the Constitution of India (D.D. Basu)",
+        "NCERT Class 11: Indian Constitution at Work"
+      ],
+      "officialSource": "Legislative Department (Ministry of Law and Justice)",
+      "officialUrl": "https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "id": "GS2-02-FED-STRUCT",
+      "paper": "GS Paper II",
+      "subject": "Federal Structure",
+      "topic": "Functions and responsibilities of the Union and States, issues and challenges pertaining to federal structure, devolution of powers and finances up to local levels and challenges therein",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "The Indian Constitution: Cornerstone of a Nation (Granville Austin)",
+        "Indian Polity (M. Laxmikanth - Federal System, Center-State & Inter-State Relations)",
+        "Punchhi Commission on Centre-State Relations"
+      ],
+      "officialSource": "Inter-State Council Secretariat (Ministry of Home Affairs)",
+      "officialUrl": "https://interstatecouncil.gov.in/"
+    },
+    {
+      "id": "GS2-03-SEP-POWERS",
+      "paper": "GS Paper II",
+      "subject": "Separation of Powers",
+      "topic": "Separation of powers between various organs dispute redressal mechanisms and institutions",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Introduction to the Constitution of India (D.D. Basu)",
+        "Supreme Court Landmark Judgments on Separation of Powers",
+        "Indian Polity (M. Laxmikanth)"
+      ],
+      "officialSource": "Supreme Court of India Official Portal",
+      "officialUrl": "https://main.sci.gov.in/"
+    },
+    {
+      "id": "GS2-04-CONST-COMP",
+      "paper": "GS Paper II",
+      "subject": "Constitutional Comparison",
+      "topic": "Comparison of the Indian constitutional scheme with that of other countries (USA, UK, France, Germany, Canada, South Africa)",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Comparative Constitutional Law (D.D. Basu)",
+        "Constitutional Schemes of Major World Democracies",
+        "International IDEA Comparative Tables"
+      ],
+      "officialSource": "International IDEA Constitution Building Resources",
+      "officialUrl": "https://www.idea.int/"
+    },
+    {
+      "id": "GS2-05-PARLIAMENT",
+      "paper": "GS Paper II",
+      "subject": "Parliament & Legislatures",
+      "topic": "Parliament and State legislatures: Structure, functioning, conduct of business, powers & privileges and issues arising out of these",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Practice and Procedure of Parliament (M.N. Kaul & S.L. Shakdher)",
+        "Indian Polity (M. Laxmikanth - Parliament & State Legislature Chapters)",
+        "PRS Legislative Research Parliamentary Monitoring Reports"
+      ],
+      "officialSource": "Parliament of India (Sansad Official Portal)",
+      "officialUrl": "https://sansad.in/"
+    },
+    {
+      "id": "GS2-06-EXEC-JUDIC",
+      "paper": "GS Paper II",
+      "subject": "Executive & Judiciary",
+      "topic": "Structure, organization and functioning of Executive and Judiciary: Ministries, Departments, pressure groups, formal/informal associations and role in Polity",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Indian Polity (M. Laxmikanth)",
+        "2nd ARC Report on Ethics in Governance & Judicial Accountability",
+        "Cabinet Secretariat Manual of Office Procedure"
+      ],
+      "officialSource": "Cabinet Secretariat (Government of India)",
+      "officialUrl": "https://cabsec.gov.in/"
+    },
+    {
+      "id": "GS2-07-RPA-ACT",
+      "paper": "GS Paper II",
+      "subject": "Electoral Law",
+      "topic": "Salient features of the Representation of People's Act (RPA 1950 & 1951, disqualification, electoral reforms, Model Code of Conduct)",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Manual of Election Law (Ministry of Law and Justice)",
+        "Law Commission Reports on Electoral Reforms (Report No. 255)",
+        "Indian Polity (M. Laxmikanth - Election Laws)"
+      ],
+      "officialSource": "Election Commission of India (ECI)",
+      "officialUrl": "https://eci.gov.in/"
+    },
+    {
+      "id": "GS2-08-CONST-BODIES",
+      "paper": "GS Paper II",
+      "subject": "Constitutional Bodies",
+      "topic": "Appointment to various Constitutional posts, powers, functions and responsibilities of various Constitutional Bodies (ECI, CAG, UPSC, Finance Commission, NCSC, NCST)",
+      "difficulty": "Medium",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Indian Polity (M. Laxmikanth - Part VII Constitutional Bodies)",
+        "Comptroller and Auditor General of India Auditing Standards"
+      ],
+      "officialSource": "Comptroller & Auditor General of India (CAG) & UPSC",
+      "officialUrl": "https://cag.gov.in/"
+    },
+    {
+      "id": "GS2-09-STAT-BODIES",
+      "paper": "GS Paper II",
+      "subject": "Statutory & Quasi-Judicial",
+      "topic": "Statutory, regulatory and various quasi-judicial bodies (NHRC, NGT, CCI, SEBI, TRAI, CERC, Lokpal, Central Vigilance Commission)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Indian Polity (M. Laxmikanth - Non-Constitutional Bodies)",
+        "National Green Tribunal (NGT) Act 2010 Overview",
+        "Lokpal and Lokayuktas Act 2013"
+      ],
+      "officialSource": "National Human Rights Commission (NHRC) & NGT",
+      "officialUrl": "https://nhrc.nic.in/"
+    },
+    {
+      "id": "GS2-10-GOV-POLICIES",
+      "paper": "GS Paper II",
+      "subject": "Government Interventions",
+      "topic": "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "NITI Aayog Strategy for New India @ 75",
+        "Kurukshetra & Yojana Monthly Government Journals",
+        "India Year Book (Publications Division)"
+      ],
+      "officialSource": "NITI Aayog Official Research Publications",
+      "officialUrl": "https://www.niti.gov.in/"
+    },
+    {
+      "id": "GS2-11-DEV-INDUSTRY",
+      "paper": "GS Paper II",
+      "subject": "Development Industry",
+      "topic": "Development processes and development industry: The role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Governance in India (M. Laxmikanth)",
+        "NABARD Microfinance and SHG Bank Linkage Reports",
+        "NGO Darpan Guidelines"
+      ],
+      "officialSource": "NGO Darpan (NITI Aayog)",
+      "officialUrl": "https://ngodarpan.gov.in/"
+    },
+    {
+      "id": "GS2-12-WELFARE-SCH",
+      "paper": "GS Paper II",
+      "subject": "Welfare Mechanisms",
+      "topic": "Welfare schemes for vulnerable sections of the population by Centre and States and performance of these schemes; Mechanisms, laws, institutions and Bodies constituted for protection and betterment of vulnerable sections",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Social Problems in India (Ram Ahuja)",
+        "Ministry of Social Justice and Empowerment Annual Reports",
+        "Rights of Persons with Disabilities Act 2016"
+      ],
+      "officialSource": "Ministry of Social Justice & Empowerment",
+      "officialUrl": "https://socialjustice.gov.in/"
+    },
+    {
+      "id": "GS2-13-SOC-HEALTH",
+      "paper": "GS Paper II",
+      "subject": "Social Sector: Health & Education",
+      "topic": "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+      "difficulty": "Medium",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "National Health Policy 2017 & Ayushman Bharat Scheme Documents",
+        "National Education Policy (NEP 2020) Blueprint",
+        "Economic Survey: Social Infrastructure Chapter"
+      ],
+      "officialSource": "Ministry of Health and Family Welfare & Ministry of Education",
+      "officialUrl": "https://mohfw.gov.in/"
+    },
+    {
+      "id": "GS2-14-POV-HUNGER",
+      "paper": "GS Paper II",
+      "subject": "Poverty & Hunger",
+      "topic": "Issues relating to poverty and hunger (National Multidimensional Poverty Index, Global Hunger Index metrics, POSHAN Abhiyaan, NFSA 2013)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "National Multidimensional Poverty Index (NITI Aayog & UNDP)",
+        "State of Food Security and Nutrition in the World (FAO)",
+        "National Food Security Act (NFSA 2013) Guidelines"
+      ],
+      "officialSource": "NITI Aayog National MPI Portal",
+      "officialUrl": "https://www.niti.gov.in/"
+    },
+    {
+      "id": "GS2-15-E-GOVERNANCE",
+      "paper": "GS Paper II",
+      "subject": "Governance & Accountability",
+      "topic": "Important aspects of governance, transparency and accountability, e-governance: Applications, models, successes, limitations, potential; Citizens charters, transparency & accountability and institutional measures",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "2nd ARC 1st Report (Right to Information) & 11th Report (Promoting e-Governance)",
+        "Digital India Initiative Mission Documents",
+        "Citizen Charters in Public Service Delivery"
+      ],
+      "officialSource": "Department of Administrative Reforms & Public Grievances (DARPG)",
+      "officialUrl": "https://darpg.gov.in/"
+    },
+    {
+      "id": "GS2-16-CIVIL-SERVICES",
+      "paper": "GS Paper II",
+      "subject": "Civil Services Role",
+      "topic": "Role of civil services in a democracy (Evolution, bureaucratic neutrality, commitment vs politicization, Mission Karmayogi)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "2nd ARC 10th Report on Refurbishing of Personnel Administration",
+        "Mission Karmayogi (National Programme for Civil Services Capacity Building)",
+        "Public Administration in India"
+      ],
+      "officialSource": "Department of Personnel and Training (DoPT)",
+      "officialUrl": "https://dopt.gov.in/"
+    },
+    {
+      "id": "GS2-17-IR-NEIGHBOR",
+      "paper": "GS Paper II",
+      "subject": "International Relations",
+      "topic": "India and its neighborhood— relations (Neighbourhood First policy, boundary treaties, connectivity corridors, maritime neighbors)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "The India Way: Strategies for an Uncertain World (S. Jaishankar)",
+        "India's Foreign Policy (Rajiv Sikri)",
+        "MEA Bilateral Briefs on Nepal, Bhutan, Bangladesh, Sri Lanka, Maldives, Myanmar"
+      ],
+      "officialSource": "Ministry of External Affairs (Bilateral Relations)",
+      "officialUrl": "https://www.mea.gov.in/"
+    },
+    {
+      "id": "GS2-18-IR-GROUPINGS",
+      "paper": "GS Paper II",
+      "subject": "International Groupings",
+      "topic": "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests (Quad, BRICS, SCO, G20, I2U2, BIMSTEC, ASEAN)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "The Globalization of World Politics (Baylis, Smith & Owens)",
+        "MEA Official Summit Declarations (G20 New Delhi Declaration, BRICS, Quad)",
+        "IDSA Strategic Studies"
+      ],
+      "officialSource": "Ministry of External Affairs (Multilateral Treaties)",
+      "officialUrl": "https://www.mea.gov.in/"
+    },
+    {
+      "id": "GS2-19-IR-DIASPORA",
+      "paper": "GS Paper II",
+      "subject": "Global Politics & Diaspora",
+      "topic": "Effect of policies and politics of developed and developing countries on India's interests, Indian diaspora",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Does the Elephant Dance? (David M. Malone)",
+        "High Level Committee on Indian Diaspora (L.M. Singhvi Report)",
+        "MEA Overseas Indian Affairs Reports"
+      ],
+      "officialSource": "Ministry of External Affairs (Diaspora Division)",
+      "officialUrl": "https://www.mea.gov.in/"
+    },
+    {
+      "id": "GS2-20-IR-INSTITUTIONS",
+      "paper": "GS Paper II",
+      "subject": "International Institutions",
+      "topic": "Important International institutions, agencies and fora— their structure, mandate (UN, UNSC, WTO, IMF, World Bank, WHO, FATF, International Criminal Court)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "International Organizations (K.P. Saxena)",
+        "United Nations Handbook",
+        "WTO Agreements and Dispute Settlement Mechanisms"
+      ],
+      "officialSource": "United Nations Official Portal & WTO",
+      "officialUrl": "https://www.un.org/"
+    },
+    {
+      "id": "GS3-01-ECO-PLAN",
+      "paper": "GS Paper III",
+      "subject": "Indian Economy & Planning",
+      "topic": "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "In Progress",
+      "standardBooks": [
+        "Indian Economy (Ramesh Singh / Nitin Singhania)",
+        "Economic Survey 2024-25 (Ministry of Finance)",
+        "NCERT Class 12: Introductory Macroeconomics"
+      ],
+      "officialSource": "Ministry of Finance & Department of Economic Affairs",
+      "officialUrl": "https://finmin.nic.in/"
+    },
+    {
+      "id": "GS3-02-INCLUSIVE-GROWTH",
+      "paper": "GS Paper III",
+      "subject": "Inclusive Growth",
+      "topic": "Inclusive growth and issues arising from it (Financial inclusion, rural-urban disparities, labor-force participation, PM Jan Dhan Yojana, UPI transformation)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Indian Economy: Performance and Policies (Uma Kapila)",
+        "NITI Aayog Strategy Documents on Inclusive Development",
+        "Reserve Bank of India National Strategy for Financial Inclusion"
+      ],
+      "officialSource": "Reserve Bank of India & NITI Aayog",
+      "officialUrl": "https://www.rbi.org.in/"
+    },
+    {
+      "id": "GS3-03-GOV-BUDGET",
+      "paper": "GS Paper III",
+      "subject": "Government Budgeting",
+      "topic": "Government Budgeting: Revenue/Capital accounts, fiscal deficit, FRBM Act, GST compensation, Gender budgeting, Zero-based budgeting",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Union Budget Manual (Ministry of Finance)",
+        "FRBM Act 2003 & NK Singh Committee Recommendations",
+        "Indian Economy (Ramesh Singh - Public Finance)"
+      ],
+      "officialSource": "Union Budget Portal (Government of India)",
+      "officialUrl": "https://www.indiabudget.gov.in/"
+    },
+    {
+      "id": "GS3-04-AGRIC-CROPS",
+      "paper": "GS Paper III",
+      "subject": "Agriculture & Irrigation",
+      "topic": "Major crops-cropping patterns in various parts of the country; Different types of irrigation and irrigation systems; Storage, transport and marketing of agricultural produce and issues and related constraints; E-technology in aid of farmers",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Agricultural Economics (S.S. Acharya & N.L. Agarwal)",
+        "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) Guidelines",
+        "e-NAM (National Agriculture Market) Portal Overview"
+      ],
+      "officialSource": "Ministry of Agriculture & Farmers Welfare",
+      "officialUrl": "https://agricoop.nic.in/"
+    },
+    {
+      "id": "GS3-05-FARM-SUBSIDIES",
+      "paper": "GS Paper III",
+      "subject": "Subsidies & Food Security",
+      "topic": "Issues related to direct and indirect farm subsidies and minimum support prices (MSP); Public Distribution System (PDS) objectives, functioning, limitations, revamping; Issues of buffer stocks and food security; Technology missions; Economics of animal-rearing",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Commission for Agricultural Costs and Prices (CACP) Price Policy Reports",
+        "Shanta Kumar High Level Committee on FCI Restructuring",
+        "National Food Security Act (NFSA 2013)"
+      ],
+      "officialSource": "Commission for Agricultural Costs and Prices (CACP) & Food Corporation of India",
+      "officialUrl": "https://cacp.dacnet.nic.in/"
+    },
+    {
+      "id": "GS3-06-FOOD-PROCESSING",
+      "paper": "GS Paper III",
+      "subject": "Food Processing Industry",
+      "topic": "Food processing and related industries in India: Scope and significance, location, upstream and downstream requirements, supply chain management, Mega Food Parks scheme",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Ministry of Food Processing Industries (MoFPI) Annual Reports",
+        "PM Kisan SAMPADA Yojana Guidelines",
+        "Indian Food Industry Overview (IBEF)"
+      ],
+      "officialSource": "Ministry of Food Processing Industries (MoFPI)",
+      "officialUrl": "https://mofpi.gov.in/"
+    },
+    {
+      "id": "GS3-07-LAND-REFORMS",
+      "paper": "GS Paper III",
+      "subject": "Land Reforms",
+      "topic": "Land reforms in India: Abolition of intermediaries, tenancy reforms, ceiling on land holdings, land consolidation, digitization of land records (DILRMP)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "India Since Independence (Bipan Chandra - Agrarian chapter)",
+        "Digital India Land Records Modernization Programme (DILRMP)",
+        "Land Reforms in India (B.B. Mohanty)"
+      ],
+      "officialSource": "Department of Land Resources (Ministry of Rural Development)",
+      "officialUrl": "https://dolr.gov.in/"
+    },
+    {
+      "id": "GS3-08-LIBERALIZATION",
+      "paper": "GS Paper III",
+      "subject": "Industrial Policy",
+      "topic": "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth (1991 reforms, Make in India, PLI schemes)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Indian Economy Since Independence (Uma Kapila)",
+        "DPIIT Industrial Policy White Paper",
+        "Production Linked Incentive (PLI) Scheme Reports"
+      ],
+      "officialSource": "DPIIT (Ministry of Commerce and Industry)",
+      "officialUrl": "https://dpiit.gov.in/"
+    },
+    {
+      "id": "GS3-09-INFRASTRUCTURE",
+      "paper": "GS Paper III",
+      "subject": "Infrastructure",
+      "topic": "Infrastructure: Energy, Ports, Roads, Airports, Railways etc. (PM Gati Shakti, Bharatmala, Sagarmala, National Green Hydrogen Mission)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "PM Gati Shakti National Master Plan Framework",
+        "National Infrastructure Pipeline (NIP) Reports",
+        "Ministry of Power & MNRE Renewable Energy Roadmaps"
+      ],
+      "officialSource": "PM Gati Shakti National Master Plan Portal",
+      "officialUrl": "https://gatishakti.mohua.gov.in/"
+    },
+    {
+      "id": "GS3-10-INVEST-MODELS",
+      "paper": "GS Paper III",
+      "subject": "Investment Models",
+      "topic": "Investment models: PPP models (BOT, BOOT, HAM, EPC, Swiss Challenge), Kelkar Committee recommendations, National Monetisation Pipeline",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Report of Committee on Revisiting & Revitalising PPP Model of Infrastructure (Vijay Kelkar Committee)",
+        "Department of Economic Affairs Public-Private Partnerships Manual"
+      ],
+      "officialSource": "Department of Economic Affairs (DEA PPP Cell)",
+      "officialUrl": "https://www.pppinindia.gov.in/"
+    },
+    {
+      "id": "GS3-11-SCI-TECH-DEV",
+      "paper": "GS Paper III",
+      "subject": "Science & Technology",
+      "topic": "Science and Technology: Developments and their applications and effects in everyday life",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Science & Technology (Ravi P. Agrahari)",
+        "Department of Science and Technology (DST) Annual Reports",
+        "NCERT General Science Class 9 & 10"
+      ],
+      "officialSource": "Department of Science and Technology (DST)",
+      "officialUrl": "https://dst.gov.in/"
+    },
+    {
+      "id": "GS3-12-INDIGEN-TECH",
+      "paper": "GS Paper III",
+      "subject": "Indigenization of Technology",
+      "topic": "Achievements of Indians in science & technology; Indigenization of technology and developing new technology (Atmanirbhar Bharat in Defence, Pharma, Semiconductors)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "DRDO Technology Focus & Innovations",
+        "India Semiconductor Mission (ISM) Guidelines",
+        "CSIR Technology Transfer Bulletins"
+      ],
+      "officialSource": "Council of Scientific and Industrial Research (CSIR) & DRDO",
+      "officialUrl": "https://www.csir.res.in/"
+    },
+    {
+      "id": "GS3-13-SPACE-AI-IPR",
+      "paper": "GS Paper III",
+      "subject": "IT, Space & Emerging Tech",
+      "topic": "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights (IPR)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "ISRO Missions Overview (Gaganyaan, Chandrayaan, Aditya-L1)",
+        "National Quantum Mission & IndiaAI Mission Documents",
+        "Indian Patent Act 1970 & TRIPS Agreement Provisions"
+      ],
+      "officialSource": "Indian Space Research Organisation (ISRO) & Office of Controller General of Patents",
+      "officialUrl": "https://www.isro.gov.in/"
+    },
+    {
+      "id": "GS3-14-ENV-CONSERV",
+      "paper": "GS Paper III",
+      "subject": "Environment & Biodiversity",
+      "topic": "Conservation, environmental pollution and degradation, environmental impact assessment (EIA 2020), Biodiversity Act 2002, Wildlife Protection Act (2022 Amendment)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Environment (Shankar IAS Academy)",
+        "Environmental Ecology, Biodiversity & Climate Change (P.D. Sharma)",
+        "UNFCCC Conference of Parties (COP) Official Treaties"
+      ],
+      "officialSource": "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+      "officialUrl": "https://moef.gov.in/"
+    },
+    {
+      "id": "GS3-15-DISASTER-MGMT",
+      "paper": "GS Paper III",
+      "subject": "Disaster Management",
+      "topic": "Disaster and disaster management: Disaster Management Act 2005, Sendai Framework for Disaster Risk Reduction 2015-2030, National Disaster Management Plan",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "National Disaster Management Guidelines (NDMA)",
+        "2nd ARC 3rd Report: Crisis Management",
+        "Sendai Framework for Disaster Risk Reduction"
+      ],
+      "officialSource": "National Disaster Management Authority (NDMA)",
+      "officialUrl": "https://ndma.gov.in/"
+    },
+    {
+      "id": "GS3-16-EXTREMISM",
+      "paper": "GS Paper III",
+      "subject": "Internal Security",
+      "topic": "Linkages between development and spread of extremism (Left Wing Extremism, Red Corridor dynamics, SAMADHAN doctrine)",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Challenges to Internal Security of India (Ashok Kumar IPS & Vipul Anekant)",
+        "Ministry of Home Affairs Left Wing Extremism Division Annual Review"
+      ],
+      "officialSource": "Ministry of Home Affairs (LWE Division)",
+      "officialUrl": "https://www.mha.gov.in/"
+    },
+    {
+      "id": "GS3-17-STATE-ACTORS",
+      "paper": "GS Paper III",
+      "subject": "Internal Security Challenges",
+      "topic": "Role of external state and non-state actors in creating challenges to internal security (Cross-border proxy wars, state-sponsored terrorism)",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "India's National Security: A Reader (Kanti P. Bajpai & Harsh V. Pant)",
+        "Manohar Parrikar Institute for Defence Studies and Analyses (IDSA Reports)"
+      ],
+      "officialSource": "MP-IDSA (Institute for Defence Studies and Analyses)",
+      "officialUrl": "https://www.idsa.in/"
+    },
+    {
+      "id": "GS3-18-CYBER-SECURITY",
+      "paper": "GS Paper III",
+      "subject": "Cyber Security & Money Laundering",
+      "topic": "Challenges to internal security through communication networks, role of media and social networking sites, basics of cyber security; money-laundering and its prevention",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Cyber Security in India: Frameworks and Protocols (CERT-In)",
+        "Prevention of Money Laundering Act 2002 (PMLA Rules)",
+        "Information Technology Act 2000 (Section 69A)"
+      ],
+      "officialSource": "Indian Computer Emergency Response Team (CERT-In) & Financial Intelligence Unit (FIU-IND)",
+      "officialUrl": "https://www.cert-in.org.in/"
+    },
+    {
+      "id": "GS3-19-BORDER-MGMT",
+      "paper": "GS Paper III",
+      "subject": "Border Management",
+      "topic": "Security challenges and their management in border areas — linkages of organized crime with terrorism (Golden Crescent, Golden Triangle, CIBMS smart borders)",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "India's Border Management: Challenges and Way Forward (IDSA)",
+        "Comprehensive Integrated Border Management System (CIBMS) Guidelines"
+      ],
+      "officialSource": "Ministry of Home Affairs (Border Management Division)",
+      "officialUrl": "https://www.mha.gov.in/"
+    },
+    {
+      "id": "GS3-20-SECURITY-FORCES",
+      "paper": "GS Paper III",
+      "subject": "Security Forces Mandate",
+      "topic": "Various Security forces and agencies and their mandate (Indian Armed Forces, CAPFs - BSF, CRPF, CISF, ITBP, SSB, Assam Rifles; Intelligence agencies - IB, R&AW, NIA)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Ministry of Home Affairs Police Division Manual",
+        "National Investigation Agency (NIA) Act 2008 & 2019 Amendment",
+        "Challenges to Internal Security (Ashok Kumar IPS)"
+      ],
+      "officialSource": "National Investigation Agency (NIA) & MHA Police Division",
+      "officialUrl": "https://www.nia.gov.in/"
+    },
+    {
+      "id": "GS4-01-ETH-INTERFACE",
+      "paper": "GS Paper IV",
+      "subject": "Ethics & Human Interface",
+      "topic": "Ethics and Human Interface: Essence, determinants and consequences of Ethics in-human actions; Dimensions of ethics; Ethics in private and public relationships. Human Values: Lessons from lives and teachings of great leaders, reformers and administrators; Role of family, society and educational institutions in inculcating values",
+      "difficulty": "Medium",
+      "estimatedHours": 3,
+      "status": "In Progress",
+      "standardBooks": [
+        "Lexicon for Ethics, Integrity & Aptitude (Chronicle Publications)",
+        "Ethics, Integrity & Aptitude (Subba Rao & P.N. Roy Chowdhury)"
+      ],
+      "officialSource": "Indian Council of Philosophical Research (ICPR)",
+      "officialUrl": "https://www.icpr.in/"
+    },
+    {
+      "id": "GS4-02-ATTITUDE",
+      "paper": "GS Paper IV",
+      "subject": "Attitude & Behaviour",
+      "topic": "Attitude: Content, structure, function; its influence and relation with thought and behaviour; Moral and political attitudes; Social influence and persuasion",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Social Psychology (Robert A. Baron)",
+        "Ethics, Integrity & Aptitude (Subba Rao & P.N. Roy Chowdhury)"
+      ],
+      "officialSource": "Harvard Project Implicit (Behavioral Ethics Resources)",
+      "officialUrl": "https://implicit.harvard.edu/"
+    },
+    {
+      "id": "GS4-03-CIVIL-VALUES",
+      "paper": "GS Paper IV",
+      "subject": "Civil Service Values",
+      "topic": "Aptitude and foundational values for Civil Service: Integrity, impartiality and non-partisanship, objectivity, dedication to public service, empathy, tolerance and compassion towards the weaker-sections",
+      "difficulty": "High",
+      "estimatedHours": 3,
+      "status": "Pending",
+      "standardBooks": [
+        "Nolan Committee Seven Principles of Public Life",
+        "2nd ARC 4th Report: Ethics in Governance",
+        "Central Civil Services (Conduct) Rules 1964"
+      ],
+      "officialSource": "Committee on Standards in Public Life (Nolan Principles) & DoPT",
+      "officialUrl": "https://dopt.gov.in/"
+    },
+    {
+      "id": "GS4-04-EMOT-INTELL",
+      "paper": "GS Paper IV",
+      "subject": "Emotional Intelligence",
+      "topic": "Emotional intelligence: Concepts, and their utilities and application in administration and governance (Self-awareness, self-regulation, motivation, empathy, social skills)",
+      "difficulty": "Medium",
+      "estimatedHours": 2.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Emotional Intelligence: Why It Can Matter More Than IQ (Daniel Goleman)",
+        "Working with Emotional Intelligence (Daniel Goleman)"
+      ],
+      "officialSource": "Consortium for Research on Emotional Intelligence in Organizations",
+      "officialUrl": "https://www.eiconsortium.org/"
+    },
+    {
+      "id": "GS4-05-MORAL-THINKERS",
+      "paper": "GS Paper IV",
+      "subject": "Moral Philosophers",
+      "topic": "Contributions of moral thinkers and philosophers from India and world (Western: Socrates, Plato, Aristotle, Kant, Bentham, Mill, Rawls; Indian: Kautilya, Buddha, Mahavira, Kabir, Vivekananda, Gandhi, Tagore, Amartya Sen)",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Justice: What's the Right Thing to Do? (Michael J. Sandel)",
+        "Foundations of Indian Political Thought (V.R. Mehta)",
+        "Moral Thinkers and Philosophers (Subba Rao)"
+      ],
+      "officialSource": "Stanford Encyclopedia of Philosophy (Ethics Section)",
+      "officialUrl": "https://plato.stanford.edu/"
+    },
+    {
+      "id": "GS4-06-PUBLIC-ETHICS",
+      "paper": "GS Paper IV",
+      "subject": "Public Administration Ethics",
+      "topic": "Public/Civil service values and Ethics in Public administration: Status and problems; Ethical concerns and dilemmas in government and private institutions; Laws, rules, regulations and conscience as sources of ethical guidance; Accountability and ethical governance; Corporate governance",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "2nd ARC 4th Report: Ethics in Governance",
+        "OECD Guidelines for Managing Conflict of Interest in the Public Service",
+        "Ethics in Governance (P.R. Dubhashi)"
+      ],
+      "officialSource": "Department of Administrative Reforms & Public Grievances (DARPG)",
       "officialUrl": "https://darpg.gov.in/arc-reports"
     },
     {
-      "id": "CSAT-P2-QUANT",
+      "id": "GS4-07-PROBITY-GOV",
+      "paper": "GS Paper IV",
+      "subject": "Probity in Governance",
+      "topic": "Probity in Governance: Concept of public service; Philosophical basis of governance and probity; Information sharing and transparency in government, Right to Information (RTI Act 2005), Codes of Ethics, Codes of Conduct, Citizen’s Charters, Work culture, Quality of service delivery, Utilization of public funds, challenges of corruption",
+      "difficulty": "High",
+      "estimatedHours": 3.5,
+      "status": "Pending",
+      "standardBooks": [
+        "Right to Information Act 2005 Official Manual",
+        "CVC Manual on Vigilance Administration",
+        "Prevention of Corruption Act 1988 (2018 Amendment)"
+      ],
+      "officialSource": "Central Vigilance Commission (CVC) & Central Information Commission (CIC)",
+      "officialUrl": "https://cvc.gov.in/"
+    },
+    {
+      "id": "GS4-08-CASE-STUDIES",
+      "paper": "GS Paper IV",
+      "subject": "Applied Ethics Case Studies",
+      "topic": "Case Studies on above issues: Ethical dilemmas in public policy, administrative discretion, conflict of interest, crisis management, political pressure, procurement transparency, and whistleblowing",
+      "difficulty": "High",
+      "estimatedHours": 4,
+      "status": "Pending",
+      "standardBooks": [
+        "Ethics, Integrity & Aptitude: 100+ Solved Case Studies (DK Balaji IAS)",
+        "Ethics in Governance Case Study Repository (LBSNAA Mussoorie)",
+        "Lexicon Case Studies Compendium"
+      ],
+      "officialSource": "Lal Bahadur Shastri National Academy of Administration (LBSNAA)",
+      "officialUrl": "https://www.lbsnaa.gov.in/"
+    },
+    {
+      "id": "CSAT-01-COMPREHENSION",
       "paper": "CSAT Paper II",
-      "subject": "Quantitative Aptitude",
-      "topic": "Number Systems, Permutations & Combinations, Data Sufficiency",
+      "subject": "Reading Comprehension",
+      "topic": "Comprehension: Unseen passages on environment, economics, philosophy, governance; deriving critical assumptions, central ideas, and logical corollaries",
+      "difficulty": "Medium",
+      "estimatedHours": 2,
+      "status": "In Progress",
+      "standardBooks": [
+        "UPSC CSAT Past 10 Years Official Solved Question Papers",
+        "The Pearson CSAT Manual (Reading Comprehension)",
+        "GKP UPSC CSAT Comprehension"
+      ],
+      "officialSource": "Union Public Service Commission (Official Question Papers)",
+      "officialUrl": "https://upsc.gov.in/examinations/previous-question-papers"
+    },
+    {
+      "id": "CSAT-02-COMM-SKILLS",
+      "paper": "CSAT Paper II",
+      "subject": "Interpersonal & Communication",
+      "topic": "Interpersonal skills including communication skills in public administration and team decision-making",
       "difficulty": "Medium",
       "estimatedHours": 1.5,
       "status": "Pending",
       "standardBooks": [
-        "Quantitative Aptitude for Competitive Examinations (R.S. Aggarwal)",
-        "Analytical Reasoning (M.K. Pandey)",
-        "Previous 10-Year UPSC CSAT Official Question Papers"
+        "Communication Skills in Administration (IIPA Guides)",
+        "UPSC CSAT Past Years Papers"
       ],
-      "officialSource": "Union Public Service Commission (Official Previous Papers)",
+      "officialSource": "DoPT Training Resources",
+      "officialUrl": "https://dopt.gov.in/"
+    },
+    {
+      "id": "CSAT-03-LOGIC-REASON",
+      "paper": "CSAT Paper II",
+      "subject": "Logical & Analytical Reasoning",
+      "topic": "Logical reasoning and analytical ability: Syllogisms, statement-arguments, statement-assumptions, critical deduction, and seating arrangements",
+      "difficulty": "Medium",
+      "estimatedHours": 2,
+      "status": "Pending",
+      "standardBooks": [
+        "Analytical Reasoning (M.K. Pandey)",
+        "A Modern Approach to Verbal Reasoning (R.S. Aggarwal)"
+      ],
+      "officialSource": "UPSC Official Examination Portal",
+      "officialUrl": "https://upsc.gov.in/"
+    },
+    {
+      "id": "CSAT-04-DECISION-MAKING",
+      "paper": "CSAT Paper II",
+      "subject": "Decision Making",
+      "topic": "Decision making and problem solving: Administrative scenarios, disaster response dilemmas, and public grievance resolution",
+      "difficulty": "Medium",
+      "estimatedHours": 1.5,
+      "status": "Pending",
+      "standardBooks": [
+        "CSAT Decision Making & Problem Solving (Arihant)",
+        "Case Scenarios for Civil Services Aptitude"
+      ],
+      "officialSource": "LBSNAA Training Case Studies",
+      "officialUrl": "https://www.lbsnaa.gov.in/"
+    },
+    {
+      "id": "CSAT-05-MENTAL-ABILITY",
+      "paper": "CSAT Paper II",
+      "subject": "General Mental Ability",
+      "topic": "General mental ability: Coding-decoding, blood relations, direction sense test, clocks and calendars, cubes and dice, series completion",
+      "difficulty": "Medium",
+      "estimatedHours": 2,
+      "status": "Pending",
+      "standardBooks": [
+        "A Modern Approach to Verbal & Non-Verbal Reasoning (R.S. Aggarwal)",
+        "UPSC CSAT Past 10 Years Question Papers"
+      ],
+      "officialSource": "Union Public Service Commission",
       "officialUrl": "https://upsc.gov.in/examinations/previous-question-papers"
+    },
+    {
+      "id": "CSAT-06-BASIC-NUMERACY",
+      "paper": "CSAT Paper II",
+      "subject": "Basic Numeracy & DI",
+      "topic": "Basic numeracy (numbers and their relations, orders of magnitude, LCM/HCF, percentages, ratio-proportion, permutations & combinations) (Class X level), Data interpretation (charts, graphs, tables, data sufficiency - Class X level)",
+      "difficulty": "High",
+      "estimatedHours": 2.5,
+      "status": "In Progress",
+      "standardBooks": [
+        "Quantitative Aptitude for Competitive Examinations (R.S. Aggarwal)",
+        "NCERT Mathematics Class 9 and 10",
+        "UPSC CSAT Past 10-Year Solved Papers"
+      ],
+      "officialSource": "NCERT Official Textbooks & UPSC",
+      "officialUrl": "https://ncert.nic.in/"
     }
   ],
   "schedule": [
@@ -396,6 +1359,36 @@
       "isMastered": false,
       "attempt": 1,
       "completedAt": "2026-11-17T17:24:55.246Z"
+    },
+    {
+      "id": "prog-GS2-POL-CONST-1794939486065",
+      "topicId": "GS2-POL-CONST",
+      "topicName": "Fundamental Rights (Articles 14-21)",
+      "score": 5,
+      "totalQuestions": 10,
+      "isMastered": false,
+      "attempt": 1,
+      "completedAt": "2026-11-17T18:18:06.065Z"
+    },
+    {
+      "id": "prog-GS2-POL-CONST-1794939531700",
+      "topicId": "GS2-POL-CONST",
+      "topicName": "Fundamental Rights (Articles 14-21)",
+      "score": 7,
+      "totalQuestions": 10,
+      "isMastered": false,
+      "attempt": 2,
+      "completedAt": "2026-11-17T18:18:51.700Z"
+    },
+    {
+      "id": "prog-GS2-POL-CONST-1794939594440",
+      "topicId": "GS2-POL-CONST",
+      "topicName": "Fundamental Rights (Articles 14-21)",
+      "score": 1,
+      "totalQuestions": 10,
+      "isMastered": false,
+      "attempt": 3,
+      "completedAt": "2026-11-17T18:19:54.440Z"
     }
   ]
 }

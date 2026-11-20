@@ -13,7 +13,7 @@ A high-performance, distraction-free **UPSC Civil Services Examination (CSE) Mas
 
 ### 1. 📅 Dynamic 8-9 Hour Daily Timetable & Today Task
 - **Intelligent Non-Overlapping Scheduling**: Balances high-difficulty topics across distinct cognitive slots (Current Affairs $\rightarrow$ GS $\rightarrow$ Optional $\rightarrow$ CSAT $\rightarrow$ Daily Topic Assessment).
-- **Sunday Revision & Buffer System**: Dedicated revision phases and full mock buffer windows every Sunday with zero AI slop.
+- **Sunday Revision & Buffer System**: Dedicated revision phases, high-yield backlog clearance, and full 100-MCQ mock practice windows every Sunday.
 - **Prelims 2027 Countdown Timer**: Real-time tracking of days remaining until Prelims (May 30, 2027) and Mains (September 17, 2027).
 - **Official Portal & Textbook Linking**: Each study block links directly to standard reference texts (*M. Laxmikanth*, *NCERTs*, *Bipin Chandra*, *Ramesh Singh*, *GC Leong*, *O.P. Gauba*) and official government repositories (*Legislative Department*, *PIB*, *RBI*, *ISRO*).
 

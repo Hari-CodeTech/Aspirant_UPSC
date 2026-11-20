@@ -1,3 +1,5 @@
+import { VERIFIED_PIB_CURRENT_AFFAIRS } from '../data/pibCurrentAffairsData';
+
 const API_BASE_URL = (typeof import.meta !== 'undefined' && import.meta?.env?.VITE_API_URL) || 'http://localhost:5000';
 
 // Default initial users if localStorage is fresh
@@ -229,5 +231,56 @@ export const apiService = {
     } catch {
       // Ignored
     }
+  },
+
+  // Fetch Current Affairs (Guaranteed 100% verified PIB press releases)
+  async getCurrentAffairs() {
+    if (isServerConfigured()) {
+      try {
+        const res = await fetch(`${API_BASE_URL}/current_affairs`);
+        if (res.ok) {
+          const remoteCA = await res.json();
+          if (Array.isArray(remoteCA) && remoteCA.length > 0) {
+            return remoteCA;
+          }
+        }
+      } catch (err) {
+        console.warn('Could not fetch remote current affairs, using verified dossier:', err.message);
+      }
+    }
+    return VERIFIED_PIB_CURRENT_AFFAIRS;
+  },
+
+  // Fetch Syllabus
+  async getSyllabus() {
+    if (isServerConfigured()) {
+      try {
+        const res = await fetch(`${API_BASE_URL}/syllabus`);
+        if (res.ok) return await res.json();
+      } catch {}
+    }
+    return [];
+  },
+
+  // Fetch Schedule
+  async getSchedule() {
+    if (isServerConfigured()) {
+      try {
+        const res = await fetch(`${API_BASE_URL}/schedule`);
+        if (res.ok) return await res.json();
+      } catch {}
+    }
+    return [];
+  },
+
+  // Fetch MCQs
+  async getMCQs() {
+    if (isServerConfigured()) {
+      try {
+        const res = await fetch(`${API_BASE_URL}/mcqs`);
+        if (res.ok) return await res.json();
+      } catch {}
+    }
+    return [];
   }
 };

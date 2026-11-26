@@ -1,86 +1,148 @@
 :root,
 [data-theme="light"] {
-  /* Surface and Backgrounds */
-  --bg-app: #f8fafc;
-  --bg-surface: #ffffff;
-  --bg-surface-hover: #f1f5f9;
-  --bg-surface-subtle: #f8fafc;
-  --bg-input: #ffffff;
-  
+  /* Surface and Backgrounds (Calm Soft Cream & Warm White) */
+  --bg-app: #F6F7F2;
+  --bg-surface: #FFFFFF;
+  --bg-surface-hover: #EEF1EB;
+  --bg-surface-subtle: #F0F2EB;
+  --bg-input: #FFFFFF;
+  --bg-sidebar: #285943;
+  --text-sidebar: #F1F5F0;
+  --sidebar-active-bg: rgba(255, 255, 255, 0.14);
+
   /* Borders */
-  --border-subtle: #e2e8f0;
-  --border-strong: #cbd5e1;
-  --border-focus: #1d4ed8;
+  --border-subtle: #E2E6DF;
+  --border-strong: #CBD2C6;
+  --border-focus: #285943;
 
   /* Typography */
-  --text-primary: #0f172a;
-  --text-secondary: #334155;
-  --text-muted: #64748b;
+  --text-primary: #26352C;
+  --text-secondary: #78847B;
+  --text-muted: #8E9A91;
 
-  /* Accents - Dignified UPSC Civil Services Palette (No AI neon/purple) */
-  --accent-primary: #1d4ed8;
-  --accent-primary-hover: #1e40af;
-  --accent-purple: #1e3a8a;
-  --accent-purple-light: #eff6ff;
-  --accent-purple-border: #bfdbfe;
-  --accent-blue: #1d4ed8;
-  --accent-blue-light: #f0f7ff;
-  --accent-blue-border: #bfdbfe;
-  --accent-emerald: #047857;
-  --accent-emerald-light: #ecfdf5;
-  --accent-emerald-border: #a7f3d0;
-  --accent-gold: #b45309;
-  --accent-gold-light: #fffbeb;
-  --accent-gold-border: #fde68a;
-  --accent-red: #b91c1c;
+  /* Forest Green + Sage Green + Warm White Palette */
+  --primary: #285943;
+  --primary-hover: #1e4533;
+  --secondary: #789B82;
+  --secondary-light: #EEF4F0;
+  --secondary-hover: #678a71;
+  --accent: #C5A76A;
+  --accent-light: #FAF6EE;
+  --accent-border: #E8D9B8;
+  --accent-hover: #b59556;
+  
+  --success: #4F9567;
+  --success-light: #ECF7F0;
+  --warning: #D6A64F;
+  --warning-light: #FDF7EC;
+  --danger: #C25450;
+  --danger-light: #FDF2F2;
 
-  /* Shadows */
-  --shadow-subtle: 0 1px 3px rgba(15, 23, 42, 0.04);
-  --shadow-card: 0 4px 16px rgba(15, 23, 42, 0.06);
-  --shadow-hover: 0 8px 24px rgba(15, 23, 42, 0.08);
+  /* Unified variable aliases for existing component compatibility */
+  --accent-primary: #285943;
+  --accent-primary-hover: #1e4533;
+  --accent-purple: #285943;
+  --accent-purple-light: #EEF4F0;
+  --accent-purple-border: #CBD2C6;
+  --accent-blue: #285943;
+  --accent-blue-light: #EEF4F0;
+  --accent-blue-border: #CBD2C6;
+  --accent-emerald: #4F9567;
+  --accent-emerald-light: #ECF7F0;
+  --accent-emerald-border: #C5E3D1;
+  --accent-gold: #C5A76A;
+  --accent-gold-light: #FAF6EE;
+  --accent-gold-border: #E8D9B8;
+  --accent-red: #C25450;
 
-  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* Shadows - Minimal & Restrained */
+  --shadow-subtle: 0 1px 3px rgba(38, 53, 44, 0.04);
+  --shadow-card: 0 2px 8px rgba(38, 53, 44, 0.05);
+  --shadow-hover: 0 6px 18px rgba(38, 53, 44, 0.08);
+
+  /* Radius - Consistent 12px requirement */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-heading: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 [data-theme="dark"] {
-  /* Surface and Backgrounds */
-  --bg-app: #0b1120;
-  --bg-surface: #0f172a;
-  --bg-surface-hover: #1e293b;
-  --bg-surface-subtle: #141e33;
-  --bg-input: #0b1120;
+  /* Dark Mode: Deep Forest Charcoal & Sage Slate */
+  --bg-app: #151D19;
+  --bg-surface: #25352B;
+  --bg-surface-hover: #2E4136;
+  --bg-surface-subtle: #1D2B23;
+  --bg-input: #1B2720;
+  --bg-sidebar: #1D2B23;
+  --text-sidebar: #F1F5F0;
+  --sidebar-active-bg: rgba(143, 185, 154, 0.16);
 
   /* Borders */
-  --border-subtle: #1e293b;
-  --border-strong: #334155;
-  --border-focus: #3b82f6;
+  --border-subtle: #2E4136;
+  --border-strong: #3D5547;
+  --border-focus: #8FB99A;
 
   /* Typography */
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
+  --text-primary: #F1F5F0;
+  --text-secondary: #A5B2A8;
+  --text-muted: #7E8D81;
 
-  /* Accents - Dignified UPSC Civil Services Palette (No AI neon/purple) */
-  --accent-primary: #3b82f6;
-  --accent-primary-hover: #2563eb;
-  --accent-purple: #38bdf8;
-  --accent-purple-light: rgba(56, 189, 248, 0.10);
-  --accent-purple-border: rgba(56, 189, 248, 0.25);
-  --accent-blue: #3b82f6;
-  --accent-blue-light: rgba(59, 130, 246, 0.12);
-  --accent-blue-border: rgba(59, 130, 246, 0.3);
-  --accent-emerald: #10b981;
-  --accent-emerald-light: rgba(16, 185, 129, 0.12);
-  --accent-emerald-border: rgba(16, 185, 129, 0.25);
-  --accent-gold: #f59e0b;
-  --accent-gold-light: rgba(245, 158, 11, 0.10);
-  --accent-gold-border: rgba(245, 158, 11, 0.25);
-  --accent-red: #ef4444;
+  /* Forest Green + Sage Green Dark Palette */
+  --primary: #8FB99A;
+  --primary-hover: #A4CDB0;
+  --secondary: #789B82;
+  --secondary-light: rgba(120, 155, 130, 0.15);
+  --secondary-hover: #8eb198;
+  --accent: #D6BD83;
+  --accent-light: rgba(214, 189, 131, 0.12);
+  --accent-border: rgba(214, 189, 131, 0.28);
+  --accent-hover: #e2cca0;
 
-  /* Shadows */
-  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.4);
-  --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.45);
-  --shadow-hover: 0 10px 28px rgba(0, 0, 0, 0.55);
+  --success: #67AC7F;
+  --success-light: rgba(103, 172, 127, 0.15);
+  --warning: #D6A64F;
+  --warning-light: rgba(214, 166, 79, 0.15);
+  --danger: #DF6C67;
+  --danger-light: rgba(223, 108, 103, 0.15);
+
+  /* Unified variable aliases for existing component compatibility */
+  --accent-primary: #8FB99A;
+  --accent-primary-hover: #A4CDB0;
+  --accent-purple: #8FB99A;
+  --accent-purple-light: rgba(143, 185, 154, 0.14);
+  --accent-purple-border: rgba(143, 185, 154, 0.28);
+  --accent-blue: #8FB99A;
+  --accent-blue-light: rgba(143, 185, 154, 0.14);
+  --accent-blue-border: rgba(143, 185, 154, 0.28);
+  --accent-emerald: #67AC7F;
+  --accent-emerald-light: rgba(103, 172, 127, 0.15);
+  --accent-emerald-border: rgba(103, 172, 127, 0.28);
+  --accent-gold: #D6BD83;
+  --accent-gold-light: rgba(214, 189, 131, 0.14);
+  --accent-gold-border: rgba(214, 189, 131, 0.30);
+  --accent-red: #DF6C67;
+
+  /* Shadows - Minimal & Dark */
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 2px 10px rgba(0, 0, 0, 0.45);
+  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.55);
+
+  /* Radius */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-heading: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 * {
@@ -93,10 +155,16 @@ body {
   font-family: var(--font-family);
   background-color: var(--bg-app);
   color: var(--text-primary);
-  line-height: 1.5;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  letter-spacing: -0.015em;
 }
 
 button {
@@ -104,9 +172,13 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  border-radius: var(--radius-md);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-input, select {
+input, select, textarea {
   font-family: inherit;
   outline: none;
+  border-radius: var(--radius-md);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }

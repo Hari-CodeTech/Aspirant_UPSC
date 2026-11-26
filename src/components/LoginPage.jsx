@@ -97,7 +97,7 @@ export default function LoginPage() {
               className="logo-icon-svg"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#00d2ff"
+              stroke="#FFFFFF"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -263,7 +263,7 @@ export default function LoginPage() {
       {showForgotModal && (
         <div className="simple-modal-backdrop" onClick={() => setShowForgotModal(false)}>
           <div className="simple-modal-card" onClick={(e) => e.stopPropagation()}>
-            <CheckCircle2 size={36} color="#10b981" />
+            <CheckCircle2 size={36} className="text-success" color="var(--success)" />
             <h3>Reset Instructions Sent</h3>
             <p>
               We have dispatched password recovery instructions to <strong>{email || 'your email'}</strong>. Please check your inbox.

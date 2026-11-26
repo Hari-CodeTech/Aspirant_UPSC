@@ -1389,6 +1389,16 @@
       "isMastered": false,
       "attempt": 3,
       "completedAt": "2026-11-17T18:19:54.440Z"
+    },
+    {
+      "id": "prog-GS2-POL-CONST-1795673936633",
+      "topicId": "GS2-POL-CONST",
+      "topicName": "Fundamental Rights (Articles 14-21)",
+      "score": 3,
+      "totalQuestions": 10,
+      "isMastered": false,
+      "attempt": 1,
+      "completedAt": "2026-11-26T06:18:56.633Z"
     }
   ]
 }

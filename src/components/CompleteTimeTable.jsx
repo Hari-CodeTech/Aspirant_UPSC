@@ -9,7 +9,6 @@ import {
   ChevronUp, 
   CheckCircle2, 
   BookOpen, 
-  Sparkles, 
   AlertCircle,
   ShieldCheck,
   Award,
@@ -38,7 +37,7 @@ export default function CompleteTimeTable() {
       {/* Month Navigation Strip */}
       <div className="month-selector-bar">
         <div className="selector-label">
-          <CalendarIcon size={16} className="text-purple-600" />
+          <CalendarIcon size={16} className="text-blue-600" />
           <span>Preparation Roadmap Months:</span>
         </div>
         <div className="month-pill-scroll">
@@ -90,7 +89,7 @@ export default function CompleteTimeTable() {
 
       {/* Sundays Revision Rule Notice */}
       <div className="sunday-rule-alert">
-        <Coffee size={20} className="icon-purple" />
+        <Coffee size={20} className="icon-amber" />
         <div>
           <strong>Every Sunday is a Designated Buffer & Full Practice Day:</strong>
           <span> Zero new heavy syllabus is scheduled on Sundays. These 8 hours are dedicated to weekly revision, full-length 100-MCQ mock tests, and backlog clearance.</span>

@@ -7,7 +7,7 @@ import {
   XCircle, 
   RefreshCw, 
   ArrowRight, 
-  Sparkles, 
+  Key, 
   HelpCircle, 
   BookOpen, 
   AlertTriangle,
@@ -146,10 +146,10 @@ export default function MCQMasteryEngine({ currentTopic, onTopicMastered }) {
             type="button"
             className="btn-ai-toggle"
             onClick={() => setShowAiConfig((v) => !v)}
-            title="Configure Gemini AI for unlimited question generation"
+            title="Configure Gemini API for dynamic question generation"
           >
-            <Sparkles size={16} />
-            <span>{hasApiKey ? 'Gemini AI Active' : 'Add Gemini API Key'}</span>
+            <Key size={16} />
+            <span>{hasApiKey ? 'Gemini API Connected' : 'Connect Gemini API Key'}</span>
           </button>
         </div>
       </div>
@@ -158,8 +158,8 @@ export default function MCQMasteryEngine({ currentTopic, onTopicMastered }) {
       {showAiConfig && (
         <div className="ai-key-tray">
           <div className="tray-info">
-            <Sparkles size={16} className="icon-gold" />
-            <span>Connect Google Gemini API for Infinite UPSC Question Generation</span>
+            <Key size={16} className="icon-gold" />
+            <span>Connect Google Gemini API for UPSC Question Generation</span>
           </div>
           <div className="tray-input-row">
             <input

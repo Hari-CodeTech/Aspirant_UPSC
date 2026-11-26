@@ -21,7 +21,7 @@ import {
   Calendar,
   X,
   BookOpen,
-  Sparkles,
+  GraduationCap,
   ExternalLink,
   Search
 } from 'lucide-react';
@@ -181,16 +181,16 @@ export default function Dashboard() {
             <span className="card-action-title">Current Affairs</span>
           </button>
 
-          {/* Card 4: ✨ UPSC AI Study Assistant (New Independent Dedicated Feature) */}
+          {/* Card 4: UPSC Study Assistant */}
           <button
             type="button"
             className={`action-card card-ai-assistant ${activeView === 'aiAssistant' ? 'card-selected' : ''}`}
             onClick={() => setActiveView('aiAssistant')}
           >
             <div className="card-icon-wrapper icon-amber">
-              <Sparkles size={34} strokeWidth={2.2} />
+              <GraduationCap size={34} strokeWidth={2.2} />
             </div>
-            <span className="card-action-title">✨ UPSC AI Assistant</span>
+            <span className="card-action-title">UPSC Study Assistant</span>
           </button>
 
           {/* Render any Custom Boxes added by User */}
@@ -202,7 +202,7 @@ export default function Dashboard() {
               onClick={() => setActiveView(box.targetView)}
             >
               <div className="card-icon-wrapper icon-emerald">
-                <Sparkles size={32} />
+                <BookOpen size={32} />
               </div>
               <span className="card-action-title">{box.title}</span>
             </button>
@@ -216,8 +216,8 @@ export default function Dashboard() {
             className={`sub-nav-pill ${activeView === 'aiAssistant' ? 'sub-pill-active' : ''}`}
             onClick={() => setActiveView('aiAssistant')}
           >
-            <Sparkles size={15} className="text-amber-500" />
-            <span>✨ UPSC AI Study Assistant</span>
+            <GraduationCap size={15} className="text-amber-600" />
+            <span>UPSC Study Assistant</span>
           </button>
 
           <button
@@ -458,7 +458,7 @@ export default function Dashboard() {
             );
           })()}
 
-          {/* VIEW 6: ✨ UPSC AI Study Assistant */}
+          {/* VIEW 6: UPSC Study Assistant */}
           {activeView === 'aiAssistant' && (
             <div className="ai-assistant-section">
               <UPSCStudyAssistant onBackToDashboard={() => setActiveView('todayTask')} />
@@ -504,7 +504,7 @@ export default function Dashboard() {
                 >
                   <option value="todayTask">Link to Today's Tasks</option>
                   <option value="completeSchedule">Link to Complete Time Table</option>
-                  <option value="aiAssistant">Link to ✨ UPSC AI Study Assistant</option>
+                  <option value="aiAssistant">Link to UPSC Study Assistant</option>
                   <option value="currentAffairs">Link to Real-Time Current Affairs</option>
                   <option value="mcqs">Link to 9/10 MCQ Mastery Test</option>
                   <option value="syllabus">Link to Syllabus Tracker</option>

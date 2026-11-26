@@ -8,7 +8,7 @@ import {
   Circle, 
   AlertCircle, 
   ShieldAlert, 
-  Sparkles, 
+  Award, 
   Coffee, 
   Brain,
   BookOpen,
@@ -169,7 +169,7 @@ export default function ScheduleTimetable({ onStartDailyMcq, onOpenCurrentAffair
                   className="btn-launch-slot-mcq"
                   onClick={onStartDailyMcq}
                 >
-                  <Sparkles size={14} />
+                  <Award size={14} />
                   <span>Launch 10 MCQs Mastery Test</span>
                   <ArrowRight size={14} />
                 </button>

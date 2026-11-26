@@ -26,7 +26,7 @@ A high-performance, distraction-free **UPSC Civil Services Examination (CSE) Mas
 - **GS Paper Classification**: Accurate tagging by GS Paper (GS I: Culture/Geo, GS II: Governance/IR, GS III: Economy/Env/Tech, GS IV: Ethics).
 - **Direct Source Verification**: Inspect official government releases with one click.
 
-### 4. 🧠 ✨ UPSC AI Study Assistant & Quiz Engine (Powered by Gemini)
+### 4. 🎓 UPSC Study Assistant & Quiz Engine (Powered by Gemini)
 - **100% In-Browser Privacy**: Your Google Gemini API key is stored strictly inside browser `localStorage`, communicating directly with Google AI Studio endpoints.
 - **Subject & Topic Catalog**: Authentic UPSC Prelims subject cards (Polity, Modern History, Physical/Human Geography, Economy, Environment, Internal Security, Ethics, CSAT, PSIR Optional, etc.) with Difficulty selector (`Beginner | Intermediate | Advanced`).
 - **Custom Topic Inquiry**: Enter any syllabus topic (e.g., *Directive Principles*, *Fiscal Deficit*, *Indus Valley Civilization*) to generate targeted MCQs.

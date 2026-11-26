@@ -11,7 +11,6 @@ import {
   EyeOff,
   ExternalLink,
   ShieldCheck,
-  Sparkles,
   Search,
   ArrowRight,
   ChevronUp,
@@ -588,8 +587,8 @@ export default function UPSCStudyAssistant({ onBackToDashboard }) {
         {/* Top Control Bar: Difficulty & Key Status */}
         <div className="catalog-top-controller">
           <div className="catalog-branding">
-            <Sparkles size={20} className="text-amber-400" />
-            <h3>UPSC AI Study Assistant</h3>
+            <GraduationCap size={20} className="text-blue-500" />
+            <h3>UPSC Study Assistant</h3>
           </div>
 
           <div className="difficulty-segmented-box">
@@ -1267,7 +1266,7 @@ export default function UPSCStudyAssistant({ onBackToDashboard }) {
           >
             <div className="bubble-sender-row">
               <span className="sender-name">
-                {msg.role === 'user' ? '👤 Aspirant' : '✨ UPSC Senior AI Mentor (Gemini)'}
+                {msg.role === 'user' ? '👤 Aspirant' : '🏛️ UPSC Senior Mentor (Gemini)'}
               </span>
               <div className="bubble-actions">
                 <span className="message-time">{msg.timestamp}</span>
@@ -1315,7 +1314,7 @@ export default function UPSCStudyAssistant({ onBackToDashboard }) {
         {isGenerating && (
           <div className="chat-message-bubble bubble-assistant bubble-loading">
             <div className="bubble-sender-row">
-              <span className="sender-name">✨ UPSC Senior AI Mentor (Gemini)</span>
+              <span className="sender-name">🏛️ UPSC Senior Mentor (Gemini)</span>
             </div>
             <div className="ai-typing-indicator">
               <span className="typing-dot" />
